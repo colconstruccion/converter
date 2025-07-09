@@ -1,14 +1,14 @@
-/*let numMiles = prompt("How many miles?");
+let numMiles = prompt("How many miles?");
 console.log(numMiles);
 numMiles = Number(numMiles);
 console.log(numMiles);
 let kiloValue = numMiles * 1.60934;
 console.log(kiloValue);
 let message = `${numMiles} miles is equal to ${kiloValue} kilometers`;
-console.log(message);*/
+console.log(message);
 
 //lesson 19
-let checkNum = 5;
+/*let checkNum = 5;
 if (checkNum > 10){
     console.log("Yes, greater than 10");
 }
@@ -22,3 +22,4 @@ else if(checkNum === 5){
 }
 
 console.log(checkNum);
+*/
