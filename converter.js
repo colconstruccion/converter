@@ -46,11 +46,10 @@ for (x=0;x<convert.length;x++){
             let convertido = num.value / 1.1023; //factor de conversion obtenido dividiendo 500/453.592
             let mensaje = (num.value+" pounds es " + convertido+(" Libras (500 gr)"));
             h1.innerText = mensaje;
-        }else if("laID" == "FC"){
+        }else if(laID == "FC"){
             let convertido = num.value - 32;
-            console.log(convertido);
             convertido = convertido/1.8; 
-            let mensaje = (num.value+" farenheit es" + convertido+ " celsius");
+            let mensaje = (num.value+" farenheit es " + convertido+ " celsius");
             h1.innerText = mensaje;
         }
     })
