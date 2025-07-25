@@ -51,6 +51,14 @@ for (x=0;x<convert.length;x++){
             convertido = convertido/1.8; 
             let mensaje = (num.value+" farenheit es " + convertido+ " celsius");
             h1.innerText = mensaje;
+        }else if(laID == "PC"){
+            let convertido = num.value * 2.54; //
+            let mensaje = (num.value+" pulgadas es " + convertido+ " centimentros");
+            h1.innerText = mensaje;
+        }else if(laID == "CP"){
+            let convertido = num.value / 2.54;
+            let mensaje = (num.value+" centimetros " + convertido+ " pulgadas");
+            h1.innerText = mensaje;
         }
     })
 }
